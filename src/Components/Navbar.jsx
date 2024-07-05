@@ -1,4 +1,5 @@
 import React from "react";
+import { VscAccount } from "react-icons/vsc";
 
 function Navbar() {
   return (
@@ -41,11 +42,11 @@ function Navbar() {
               Add Quote
             </a>
           </div>
-          <div className="font-semibold text-lg">
+          <div className="font-semibold text-lg flex place-items-center gap-1.5">
+            <VscAccount />
             <p className="flex p-1">
               Hola,<p className="text-green-700">Samyak.</p>
             </p>
-            <img></img>
           </div>
         </div>
       </div>
