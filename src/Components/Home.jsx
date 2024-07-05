@@ -15,7 +15,34 @@ function Home() {
           name="all_quotes"
           className=" gap-3 justify-center flex-wrap inline-flex"
         >
+          {/* Card 1 */}
+          <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer">
+            <div className="bg-[#FFFFED] rounded-2xl p-5 border ">
+              <div className="py-2">
+                <p>This is Quote 4 by Vaishnavi.</p>
+                <p className="font-medium mt-1">- Moti</p>
+              </div>
+              <hr />
+              <div className="flex gap-2 pt-3 justify-end">
+                <button
+                  id="Edit"
+                  className="border p-2.5 rounded-lg text-green-800 hover:bg-green-500  hover:text-white"
+                >
+                  <FaRegEdit />
+                </button>
+                <button
+                  id="delete"
+                  className="border p-2.5 rounded-lg text-red-500  hover:bg-red-500 hover:text-white"
+                >
+                  <FiTrash2 />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 2 */}
           <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer ">
+            
             <div className="bg-[#FFFFED] rounded-2xl p-5 border">
               <div className="py-2">
                 <p>This is Quote 1 by Chan.</p>
@@ -40,7 +67,9 @@ function Home() {
               </div>
             </div>
           </div>
-          {/* 2nd Card */}
+
+          {/* Card 1 */}
+
           <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer">
             <div className="bg-[#FFFFED] rounded-2xl p-5 border ">
               <div className="py-2">
@@ -93,30 +122,6 @@ function Home() {
             </div>
           </div>
 
-          {/* Card 4 */}
-          <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer">
-            <div className="bg-[#FFFFED] rounded-2xl p-5 border">
-              <div className="py-2">
-                <p>This is Quote 4 by Vaishnavi.</p>
-                <p className="font-medium mt-1">- Moti</p>
-              </div>
-              <hr />
-              <div className="flex gap-2 pt-3 justify-end">
-                <button
-                  id="Edit"
-                  className="border p-2.5 rounded-lg text-green-800 hover:bg-green-500  hover:text-white"
-                >
-                  <FaRegEdit />
-                </button>
-                <button
-                  id="delete"
-                  className="border p-2.5 rounded-lg text-red-500  hover:bg-red-500 hover:text-white"
-                >
-                  <FiTrash2 />
-                </button>
-              </div>
-            </div>
-          </div>
           {/* Card 5  */}
           <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer">
             <div className="bg-[#FFFFED] rounded-2xl p-5 border">
