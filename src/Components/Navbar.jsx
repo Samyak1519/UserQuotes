@@ -6,29 +6,31 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between p-4 px-6 shadow-lg bg-white flex-wrap">
+      <div
+        className="flex justify-between flex-wrap w-full
+      p-4 px-6 
+      shadow-lg 
+      bg-white 
+      "
+      >
         <div className="cursor-pointer">
           <Link to="/">
             <h1 className="font-bold text-3xl">User Quotes</h1>
           </Link>
         </div>
 
-        <div className="flex gap-7">
-          <div className=" flex gap-10 text-lg ">
+        <div className="flex gap-7 flex-wrap">
+          <div className=" flex gap-10 text-lg flex-wrap">
             <Link
               to="/"
-              className="p-1
-            hover:text-green-500
-            hover:underline
-            hover:font-bold
-            "
+              className="p-1 hover:border hover:bg-green-400 hover:rounded-full hover:text-white hover:p-2 hover:text-base"
             >
               Home
             </Link>
 
             <Link
               to="/add_quote"
-              className="p-1 hover:underline hover:font-bold hover:text-green-500"
+              className="p-1 hover:border hover:bg-green-400 hover:rounded-full hover:text-white hover:p-2 hover:text-base"
             >
               Add Quote
             </Link>
