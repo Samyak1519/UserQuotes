@@ -29,7 +29,7 @@ function Addquote() {
             <div className="flex justify-center place-items-baseline gap-5">
               <TbTextSize />
               <textarea
-                className="border rounded-md p-1 h-32 w-3/6 shadow-md"
+                className="border rounded-md p-1 pl-3 h-32 w-3/6 shadow-md"
                 type="text"
                 placeholder="Quote"
               />
@@ -39,7 +39,7 @@ function Addquote() {
               <CgUserList />
 
               <input
-                className="border rounded-md p-1 w-3/6 h-10 shadow-md"
+                className="border rounded-md p-1 pl-3 w-3/6 h-10 shadow-md"
                 type="text"
                 placeholder="Name"
               />
@@ -52,7 +52,7 @@ function Addquote() {
             </button>
             <button
               onClick={successToast}
-              className="bg-green-400 text-slate-700 hover:bg-white hover:text-green-700 hover:shadow-md hover:shadow-green-400 hover:border flex justify-center flex-wrap items-center rounded-lg w-20 h-9"
+              className="font-semibold bg-green-400 text-slate-700 hover:bg-white hover:text-green-700 hover:shadow-md hover:shadow-green-400 hover:border flex justify-center flex-wrap items-center rounded-lg w-20 h-9"
             >
               Save
             </button>
