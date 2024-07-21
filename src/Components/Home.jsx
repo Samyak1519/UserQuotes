@@ -17,7 +17,7 @@ function Home() {
         >
           {/* Card 1 */}
           <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer relative">
-            <div className="bg-[#FFFFED] rounded-2xl p-5 size-52 border">
+            <div className="bg-[#FFFFFF] rounded-2xl p-5 size-52 border">
               <div className="py-2 mb-6">
                 <p>This is Quote 1 by Vaishnavi.</p>
                 <p className="font-medium mt-1">- Moti</p>
