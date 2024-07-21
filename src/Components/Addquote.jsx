@@ -29,7 +29,7 @@ function Addquote() {
             <div className="flex justify-center place-items-baseline gap-5">
               <TbTextSize />
               <textarea
-                className="border rounded-md p-1 pl-3 h-32 w-3/6 shadow-md"
+                className=" border rounded-md p-1 pl-3 h-32 w-3/6 shadow-md"
                 type="text"
                 placeholder="Quote"
               />
