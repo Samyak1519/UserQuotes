@@ -9,7 +9,7 @@
 # Pending.
 
 1. View Quote Page.
-2. Register (\*By Moti)
+2. Register (\*By Vaishnavi Mene)
 
 # Flow:
 
