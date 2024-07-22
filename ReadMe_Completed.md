@@ -10,6 +10,7 @@
 
 1. View Quote Page.
 2. Register (\*Optional)
+3. signUp (Vaishnavi Mene)
 
 # Flow:
 
