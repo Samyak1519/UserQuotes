@@ -4,12 +4,12 @@
 2. All Quotes Page.
 3. Add Quote page.
 4. Edit Quote Pages
+5. Login (\*Optional)
 
 # Pending.
 
 1. View Quote Page.
-2. Login (\*Optional)
-3. Register (\*Optional)
+2. Register (\*Optional)
 
 # Flow:
 

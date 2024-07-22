@@ -17,7 +17,7 @@
 
 5. git commit -m "<Commit_Message>"
 
-6. git push origin <name_of_new_branch>
+6. git push -u origin <name_of_new_branch>
 
 7. Yaahhh you did it. :)
 

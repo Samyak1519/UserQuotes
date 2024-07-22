@@ -4,6 +4,7 @@ import Addquote from "./Components/Addquote";
 import Errorpage from "./Components/ErrorPage";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
+import LoginPage from "./Components/LoginPage";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/add_quote" element={<Addquote />} />
-
+              <Route path="/login" element={<LoginPage />} />
               <Route path="*" element={<Errorpage />} />
             </Routes>
           </div>
