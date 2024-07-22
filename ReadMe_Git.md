@@ -20,3 +20,8 @@
 6. git push -u origin <name_of_new_branch>
 
 7. Yaahhh you did it. :)
+
+8 . checking my branch.
+
+9. checking again
+
