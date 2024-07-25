@@ -10,7 +10,6 @@ import SignupPage from "./Components/SignupPage";
 function App() {
   return (
     <>
-  
       <div>
         <BrowserRouter>
           <Navbar />
@@ -19,8 +18,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/add_quote" element={<Addquote />} />
               <Route path="/login" element={<LoginPage />} />
+              <Route path="/signup" element={<SignupPage />} />
               <Route path="*" element={<Errorpage />} />
-              <Route path = "/SignupPage" element = {<SignupPage/>}/>
             </Routes>
           </div>
         </BrowserRouter>
