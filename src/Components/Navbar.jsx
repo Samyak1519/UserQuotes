@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between place-items-baseline flex-wrap w-full px-10 align-middle shadow-lg bg-white pt-2.5">
+      <div className="flex justify-between place-items-baseline flex-wrap w-full px-10 align-middle shadow-lg bg-white pt-1.5">
         <div className="flex gap-10 flex-wrap place-items-baseline ">
           <div className="cursor-pointer p-1.5">
             <Link to="/">
@@ -65,4 +65,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar;
