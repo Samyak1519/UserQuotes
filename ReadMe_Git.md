@@ -17,11 +17,10 @@
 
 5. git commit -m "<Commit_Message>"
 
-6. git push -u origin <name_of_new_branch>
+6. git push -u origin <name_of_new_branch_you_want_to_name>
 
 7. Yaahhh you did it. :)
 
 8 . checking my branch.
 
 9. checking again
-
