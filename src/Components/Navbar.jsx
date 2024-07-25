@@ -1,6 +1,6 @@
 import React from "react";
 import { VscAccount } from "react-icons/vsc";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import Addquote from "./Addquote";
 
 function Navbar() {
@@ -14,37 +14,55 @@ function Navbar() {
             </Link>
           </div>
 
-          <div className=" flex gap-3 text-lg flex-wrap rounded-full ">
-            <Link
+          <div className="flex gap-3 text-lg flex-wrap rounded-full ">
+            <NavLink
               to="/"
-              className="p-2 rounded-full hover:border hover:bg-green-400 hover:rounded-full hover:text-white hover:p-2"
+              className="p-2 rounded-full hover:delay-75 hover:text-green-600 hover:font-bold hover:text-xl h-9 hover:h-9"
             >
               Home
-            </Link>
+            </NavLink>
 
-            <Link
+            <NavLink
               to="/add_quote"
-              className="p-2 rounded-full hover:border hover:bg-green-400 hover:rounded-full hover:text-white hover:p-2"
+              className="p-2 rounded-full hover:delay-75 hover:text-green-600 hover:font-bold hover:text-xl h-9 hover:h-9"
             >
               Add Quote
-            </Link>
+            </NavLink>
           </div>
         </div>
 
         <div className="flex flex-wrap p-3.5">
           {/* Profile Icon and Name */}
 
-          <div className="font-semibold text-lg flex place-items-center gap-1.5 flex-wrap">
+          <NavLink
+            to="/Login"
+            name="login_button"
+            id="login_button"
+            className="hover:border hover:shadow-lg hover:font-semibold flex flex-wrap justify-center bg-white p-1 text-black font-medium text-base h-9 w-20 rounded-lg"
+          >
+            LogIn
+          </NavLink>
+
+          <NavLink
+            to="/.SignUp"
+            name="signup_button"
+            id="signup_button"
+            className="hover:border p-1 hover:shadow-lg hover:bg-white hover:text-black hover:text-base hover:font-semibold flex flex-wrap justify-center bg-black text-white font-normal text-base h-9 w-20 rounded-lg"
+          >
+            SignUp
+          </NavLink>
+
+          {/* <div className="font-semibold text-lg flex place-items-center gap-1.5 flex-wrap">
             <VscAccount />
 
             <p className="flex p-1 ">
               Hola,<p className="text-green-700">&nbsp;Samyak.</p>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
   );
 }
 
-export default Navbar;
+export default Navbar;
