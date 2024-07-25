@@ -44,7 +44,7 @@ function Navbar() {
           </NavLink>
 
           <NavLink
-            to="/.SignUp"
+            to="/SignupPage"
             name="signup_button"
             id="signup_button"
             className="hover:border p-1 hover:shadow-lg hover:bg-white hover:text-black hover:text-base hover:font-semibold flex flex-wrap justify-center bg-black text-white font-normal text-base h-9 w-20 rounded-lg"
