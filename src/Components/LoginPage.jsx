@@ -1,8 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { BiShowAlt } from "react-icons/bi";
 
 function LoginPage() {
+  const navigate = useNavigate();
+  const Signup = () => {
+     navigate("/SignupPage");
+    
+  };
+  
   return (
     <>
       <div id="mainComponent" className="flex justify-center rounded-lg p-3">
@@ -57,7 +64,7 @@ function LoginPage() {
 
           <hr />
 
-          <button className="border rounded-lg text-black mt-3 p-3 font-semibold text-sm hover:shadow-lg">
+          <button  onClick = {Signup}className="border rounded-lg text-black mt-3 p-3 font-semibold text-sm hover:shadow-lg">
             Sign Up
           </button>
           <button className="border rounded-lg text-black mt-3 p-3 font-semibold text-sm hover:shadow-lg">

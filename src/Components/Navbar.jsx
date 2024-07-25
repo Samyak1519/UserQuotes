@@ -6,9 +6,9 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between place-items-baseline flex-wrap w-full hover:place-items-baseline px-12 pb-1 shadow-lg bg-white">
-        <div className="flex gap-10 flex-wrap place-items-baseline">
-          <div className="cursor-pointer ">
+      <div className="flex justify-between place-items-baseline flex-wrap w-full  px-10 align-middle shadow-lg bg-white p-3">
+        <div className="flex gap-10 flex-wrap place-items-baseline ">
+          <div className="cursor-pointer p-1.5">
             <Link to="/">
               <h1 className="font-bold text-3xl">User Quotes</h1>
             </Link>
@@ -31,7 +31,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="flex flex-wrap place-items-baseline gap-1">
+        <div className="flex flex-wrap p-3.5">
           {/* Profile Icon and Name */}
 
           <NavLink
