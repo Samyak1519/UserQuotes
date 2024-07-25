@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between place-items-baseline flex-wrap w-full  px-10 align-middle shadow-lg bg-white">
+      <div className="flex justify-between place-items-baseline flex-wrap w-full  px-10 align-middle shadow-lg bg-white p-3">
         <div className="flex gap-10 flex-wrap place-items-baseline ">
           <div className="cursor-pointer p-1.5">
             <Link to="/">
@@ -31,7 +31,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="flex flex-wrap p-2.5">
+        <div className="flex flex-wrap p-3.5">
           {/* Profile Icon and Name */}
 
           <div className="font-semibold text-lg flex place-items-center gap-1.5 flex-wrap">

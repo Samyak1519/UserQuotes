@@ -5,10 +5,12 @@ import Errorpage from "./Components/ErrorPage";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import LoginPage from "./Components/LoginPage";
+import SignupPage from "./Components/SignupPage";
 
 function App() {
   return (
     <>
+  
       <div>
         <BrowserRouter>
           <Navbar />
@@ -18,6 +20,7 @@ function App() {
               <Route path="/add_quote" element={<Addquote />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="*" element={<Errorpage />} />
+              <Route path = "/SignupPage" element = {<SignupPage/>}/>
             </Routes>
           </div>
         </BrowserRouter>
