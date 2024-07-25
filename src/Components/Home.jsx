@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div>
-        <div className="font-medium text-lg ml-6 mb-3">
+        <div className="font-semibold text-2xl ml-6 mb-3">
           <h1>All Quotes</h1>
         </div>
         <hr />
@@ -43,14 +43,13 @@ function Home() {
 
           {/* Card 2 */}
           <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer relative">
-            <div className="bg-[#FFFFED] rounded-2xl p-5 size-52 border ">
+            <div className="bg-[#FFFFED] rounded-2xl p-5 size-52 border">
               <div className="py-2 mb-6">
                 <p>This is Quote 2 by Chan.</p>
                 <p className="font-medium mt-1">- Chan</p>
               </div>
-              <br />
+
               <hr />
-              <br />
               <div className="flex flex-wrap gap-2 pt-3 justify-end absolute bottom-5 right-5">
                 <button
                   id="Edit"
