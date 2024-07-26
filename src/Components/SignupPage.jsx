@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import { BiShowAlt } from "react-icons/bi";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function SignupPage() {
+  const navigate = useNavigate();
+
   const [data, setData] = useState([]);
+
+  const goToLogin = () => {
+    navigate("/login");
+  };
+
   let Submit = (e) => {
     //event.preventDefault();
     setData(e.target.value);
@@ -15,8 +22,8 @@ function SignupPage() {
       <div id="mainComponent" className="flex justify-center rounded-lg p-3">
         <div className="flex flex-col rounded-lg border shadow-xl p-6 w-4/12 h-3/6">
           <div id="heading" name="heading" className="flex flex-col gap-0">
-            <h1 className="text-3xl font-bold  "> Sign Up </h1>
-            <p className="font-normal  text-gray-500">
+            <h1 className="text-2xl font-semibold"> Create an Account! </h1>
+            <p className="font-normal text-gray-500">
               Sign up for awesome quotes.
             </p>
           </div>
@@ -73,22 +80,34 @@ function SignupPage() {
                 ></input>
               </div>
             </div>
-            <h1 className=" font-normal text-right text-base mt-3">
-              Already User? &nbsp;
-              <NavLink className="underline" to="/login">
+
+            {/* <h1 className="font-medium text-right text-base mt-5">
+              Already User?
+              <NavLink className="underline hover:text-green-600" to="/login">
                 Login
               </NavLink>
-            </h1>
+            </h1> */}
+
             <button
               type="submit"
               id="signIn"
               name="signIn"
-              className="bg-[#171717] text-white rounded-lg p-3 mt-3 mb-3 hover:shadow-red-600  w-full"
+              className="bg-[#171717] text-white rounded-lg p-3 mt-4 mb-3 hover:shadow-red-600 hover:bg-gray-800 hover:delay-75 w-full "
               onClick={Submit} //function to handle form submission
             >
-              REGISTER
+              Register
             </button>
           </form>
+          <hr />
+          <button
+            type="submit"
+            id="logIn"
+            name="loginIn"
+            className="border rounded-lg text-black mt-3 p-3 font-semibold text-sm hover:shadow-lg hover:font-bold hover:text-green-800"
+            onClick={goToLogin} //function to handle form submission
+          >
+            Already a user? Login
+          </button>
         </div>
       </div>
     </>

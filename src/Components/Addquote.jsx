@@ -11,20 +11,12 @@ function Addquote() {
   return (
     <>
       <div>
-        <div className="font-medium text-2xl ml-2 mb-3">
+        <div className="font-semibold text-2xl ml-6 mb-3">
           <h1>Add Quote</h1>
         </div>
         <hr />
 
-        <div
-          className="flex 
-        flex-col 
-        gap-5 
-        justify-center 
-        flex-wrap 
-        mt-5 
-        items-center"
-        >
+        <div className="flex flex-col gap-5 justify-center flex-wrap mt-5 items-center">
           <div className="flex flex-col gap-3  w-5/6">
             <div className="flex justify-center place-items-baseline gap-5">
               <TbTextSize />

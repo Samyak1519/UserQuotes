@@ -3,14 +3,14 @@
 1. NavBar.
 2. All Quotes Page.
 3. Add Quote page.
-4. Edit Quote Pages
-5. Login (\*Optional)
+4. Login Page.
+5. Error Page.
 
 # Pending.
 
 1. View Quote Page.
-2. Register (\*Optional)
-3. signUp (Vaishnavi Mene)
+2. SignUp Page. (\*By Moti)
+3. Edit Quote Page.
 
 # Flow:
 
