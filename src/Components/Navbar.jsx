@@ -1,5 +1,5 @@
 import React from "react";
-import { VscAccount } from "react-icons/vsc";
+// import { VscAccount } from "react-icons/vsc";
 import { Link, NavLink } from "react-router-dom";
 // import Addquote from "./Addquote";
 
