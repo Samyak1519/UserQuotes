@@ -44,7 +44,7 @@ function Addquote() {
             </button>
             <button
               onClick={successToast}
-              className="font-semibold bg-green-400 text-slate-700 hover:bg-white hover:text-green-700 hover:shadow-md hover:shadow-green-400 hover:border flex justify-center flex-wrap items-center rounded-lg w-20 h-9"
+              className="font-semibold bg-green-500 text-white hover:bg-white hover:text-green-700 hover:shadow-md hover:shadow-green-400 hover:border flex justify-center flex-wrap items-center rounded-lg w-20 h-9"
             >
               Save
             </button>

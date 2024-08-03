@@ -17,28 +17,28 @@ function Navbar() {
           <div className="flex gap-3 text-lg flex-wrap rounded-full ">
             <NavLink
               to="/"
-              className="p-2 rounded-full hover:delay-75 hover:text-green-600 hover:font-bold hover:text-xl h-9 hover:h-9"
+              className="p-2 rounded-full hover:delay-75 hover:text-green-600 font-semibold h-9 hover:h-9"
             >
               Home
             </NavLink>
 
             <NavLink
               to="/add_quote"
-              className="p-2 rounded-full hover:delay-75 hover:text-green-600 hover:font-bold hover:text-xl h-9 hover:h-9"
+              className="p-2 rounded-full hover:delay-75 hover:text-green-600 font-semibold h-9 hover:h-9"
             >
               Add Quote
             </NavLink>
           </div>
         </div>
 
-        <div className="flex flex-wrap p-3.5">
+        <div className="flex flex-wrap p-3.5 gap-1">
           {/* Profile Icon and Name */}
 
           <NavLink
-            to="/Login"
+            to="/login"
             name="login_button"
             id="login_button"
-            className="hover:border hover:shadow-lg hover:font-semibold flex flex-wrap justify-center bg-white p-1 text-black font-medium text-base h-9 w-20 rounded-lg"
+            className="hover:shadow-lg font-semibold flex flex-wrap justify-center bg-white p-1 text-black h-9 w-20 rounded-lg"
           >
             LogIn
           </NavLink>
