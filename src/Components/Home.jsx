@@ -13,7 +13,7 @@ function Home() {
         <div
           id="add_quotes_main"
           name="all_quotes_main"
-          className="gap-5 flex justify-center flex-wrap "
+          className="gap-5 flex justify-center flex-wrap"
         >
           {/* Card 1 */}
           <div className="mt-5 hover:shadow-lg hover:delay-75 hover:rounded-2xl cursor-pointer relative">
