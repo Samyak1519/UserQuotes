@@ -21,6 +21,6 @@
 
 7. Yaahhh you did it. :)
 
-8 . checking my branch.
+8. checking my branch.
 
 9. checking again
