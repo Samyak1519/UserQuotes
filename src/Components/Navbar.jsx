@@ -28,6 +28,13 @@ function Navbar() {
             >
               Add Quote
             </NavLink>
+
+            <NavLink
+              to="/profile"
+              className="p-2 rounded-full hover:delay-75 hover:text-green-600 font-semibold h-9 hover:h-9"
+            >
+              Profile Page
+            </NavLink>
           </div>
         </div>
 

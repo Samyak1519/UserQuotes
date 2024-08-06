@@ -19,8 +19,8 @@ function SignupPage() {
 
   return (
     <>
-      <div id="mainComponent" className="flex justify-center rounded-lg p-3">
-        <div className="flex flex-col rounded-lg border shadow-xl p-6 w-4/12 h-3/6">
+      <div id="mainComponent" className="flex justify-center rounded-2xl p-3">
+        <div className="flex flex-col rounded-2xl border shadow-xl p-6 w-4/12 h-3/6">
          
           <div id="heading" name="heading" className="flex flex-col gap-0">
             <h1 className="text-3xl font-semibold"> Create an Account! </h1>
